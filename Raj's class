@@ -1,0 +1,12 @@
+# Age checker for Raj's class
+age = int(input("Enter your age: "))
+
+if age >= 10:
+    if age <= 20:
+        print("You are eligible to enroll in Raj's class.")
+    else:
+        print("Sorry, you're too old to enroll.")
+    else:
+    print("Sorry, you're too young to enroll.")
+    else:  
+    print("You can't enter the class if you are older then twenty years old.")
