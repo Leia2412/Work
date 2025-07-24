@@ -1,0 +1,12 @@
+a = 10
+b = 20
+c = 30
+print("Before swapping:")
+print("a =", a, "b =", b, "c =", c)
+
+temp = a
+a = b
+b = c
+c = temp
+print("After swapping:")
+print("a =", a, "b =", b, "c =", c)
